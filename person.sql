@@ -8,7 +8,7 @@ create table person (
 );
 
 insert into person (pname, age, height, city, favorite_color)
-    values("Ethan", 19, 150, "Flower Mound", "Blue"), ("John", 25, 123, "Salt Lake City", "Green"), ("Kevin", 44, 150, "London", "Yellow"), ("Jeff", 18, 200, "Austin", "Grey"), ("greg", 29, 350, "Space", "Red");
+    values('Ethan', 19, 150, 'Flower Mound', 'Blue'), ('John', 25, 123, 'Salt Lake City', 'Green'), ('Kevin', 44, 150, 'London', 'Yellow'), ('Jeff', 18, 200, 'Austin', 'Grey'), ('greg', 29, 350, 'Space', 'Red');
 
 select * from person order by height desc;
 select * from person order by height asc;
